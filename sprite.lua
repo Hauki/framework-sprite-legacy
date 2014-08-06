@@ -110,6 +110,8 @@ sprite.add = function( spriteSet, sequenceName, startFrame, frameCount, time, lo
 		end
 	end
 
+	startFrame = startFrame + spriteSet.startFrame - 1
+
 	local item =
 	{
 		name = sequenceName,
