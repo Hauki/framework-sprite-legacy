@@ -105,6 +105,8 @@ sprite.add = function( spriteSet, sequenceName, startFrame, frameCount, time, lo
 		elseif -2 == loopParam then
 			loopCount = 0
 			loopDirection = "bounce"
+		elseif loopParam > 0 then
+			loopCount = loopParam
 		end
 	end
 
