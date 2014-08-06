@@ -78,6 +78,8 @@ sprite.newSprite = function( spriteSet )
 		s:setSequence( name )
 	end
 
+	s:prepare( "default" )
+
 	return s
 end
 
